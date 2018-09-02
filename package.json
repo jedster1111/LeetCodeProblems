@@ -1,5 +1,5 @@
 {
-  "name": "LeetCode",
+  "name": "leetcode",
   "version": "1.0.0",
   "description": "These are my attempts at [LeetCode problems](https://leetcode.com) <br>",
   "main": "TwoSum.js",
