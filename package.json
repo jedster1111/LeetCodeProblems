@@ -1,0 +1,24 @@
+{
+  "name": "LeetCode",
+  "version": "1.0.0",
+  "description": "These are my attempts at [LeetCode problems](https://leetcode.com) <br>",
+  "main": "TwoSum.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^23.5.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedster1111/LeetCodeProblems.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedster1111/LeetCodeProblems/issues"
+  },
+  "homepage": "https://github.com/jedster1111/LeetCodeProblems#readme"
+}
