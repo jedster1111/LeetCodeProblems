@@ -10,7 +10,16 @@ Follow up: Could you solve it without converting the integer to a string?
 @return {boolean}
 */
 
-var isPalindrome = function(x) {
-	return x == x.toString().split("").reverse().join("");
+const isPalindrome: (x: number) => boolean = x => {
+  return (
+    x ===
+    Number(
+      x
+        .toString()
+        .split("")
+        .reverse()
+        .join("")
+    )
+  );
 };
 export default isPalindrome;
