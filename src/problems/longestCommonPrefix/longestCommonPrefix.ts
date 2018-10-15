@@ -1,20 +1,21 @@
-/*
-https://leetcode.com/problems/longest-common-prefix/description/
-Write a function to find the longest common prefix string amongst an array of strings.
-If there is no common prefix, return an empty string "".
-	Input: ["flower","flow","flight"] => Output: "fl"
-	Input: ["dog","racecar","car"] => Output: ""
-All given inputs are in lowercase letters a-z.
-
-@param {string[]} strs
-@return {string}
-*/
+// https://leetcode.com/problems/longest-common-prefix/description/
 
 interface Letters {
   [key: number]: string;
 }
 
-const longestCommonPrefix = (inputStrings: string[]) => {
+/**
+ *  Returns the longest common prefix string amongst an array of strings.
+ *  If there is no common prefix, returns an empty string.
+ * @param inputStrings An array of strings to be checked.
+ * @example
+ *
+ *  longestCommonPrefix(["flower","flow","flight"]); // "fl"
+ */
+
+const longestCommonPrefix: (
+  inputStrings: string[]
+) => string = inputStrings => {
   const letters: Letters = {};
   if (Array.isArray(inputStrings) && inputStrings.length) {
     for (let i = 0; i < inputStrings.length; i++) {

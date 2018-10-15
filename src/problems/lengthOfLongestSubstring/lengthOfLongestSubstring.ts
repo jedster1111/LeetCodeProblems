@@ -1,16 +1,14 @@
-/*
-https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
-Given a string, find the length of the longest substring without repeating characters.
-
-@param {string} s
-@return {number}
-*/
+// https://leetcode.com/problems/longest-substring-without-repeating-characters/description/
 
 interface Letters {
   [index: string]: number;
 }
 
-const lengthOfLongestSubstring = (word: string) => {
+/**
+ * Finds the length of the longest substring without repeating characters.
+ * @param word The string to be tested.
+ */
+const lengthOfLongestSubstring: (word: string) => number = (word: string) => {
   const chars = [...word];
   let result = 0;
   let lower = 0;

@@ -1,15 +1,14 @@
-/*
-https://leetcode.com/problems/palindrome-number/description/
-Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
-	Input: 121 => Output: true
-	Input: -121 => Output: false
-	Input: 10 => Output: false
-Follow up: Could you solve it without converting the integer to a string?
+// https://leetcode.com/problems/palindrome-number/description/
 
-@param {number} x
-@return {boolean}
-*/
-
+/**
+ * Checks whether an integer is a palindrome or not. An integer is a palindrome when it reads the same backward as forward.
+ * @example
+ * isPalindrome(121) // true
+ * isPalindrome(-121) // false
+ * isPalindrome(10) // false
+ * @param x The number to be checked.
+ * @returns True or false.
+ */
 const isPalindrome: (x: number) => boolean = x => {
   return (
     x ===

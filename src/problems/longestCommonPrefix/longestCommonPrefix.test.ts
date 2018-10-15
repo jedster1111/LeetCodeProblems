@@ -7,7 +7,7 @@ https://leetcode.com/problems/longest-common-prefix/description/
 
 import longestCommonPrefix from "./longestCommonPrefix";
 
-test('input ["flower","flow","flight"] should return "f1"', () => {
+test('input ["flower","flow","flight"] should return "fl"', () => {
   expect(longestCommonPrefix(["flower", "flow", "flight"])).toBe("fl");
 });
 test(`input ["test","tested","retested"] should return "test"`, () => {
