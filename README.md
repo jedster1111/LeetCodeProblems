@@ -3,6 +3,8 @@
 These are my attempts at [LeetCode problems](https://leetcode.com).  
 These are written in typescript and tested with jest.
 
+Currently adding Python solutions as well.
+
 ## Setup
 
 Install dependencies: `yarn`  
