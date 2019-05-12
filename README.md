@@ -8,7 +8,7 @@ Currently adding Python solutions as well.
 ## Setup
 
 Install dependencies: `yarn`  
-Run tests: `yarn jest`
+Run tests: `yarn test`
 
 ## Problems
 
